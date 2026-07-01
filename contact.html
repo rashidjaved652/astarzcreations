@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Alpha Construction Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">Alpha<span>Construction</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Contact Inner Banner -->
+    <section class="inner-banner contact-banner">
+        <h1>Contact Our Team</h1>
+        <p>Aapke zehan mein koi sawal hai ya quotation chahye? Hum se rabta karein.</p>
+    </section>
+
+    <!-- Contact Section Wrapper -->
+    <section class="contact-page-content">
+        <div class="contact-wrapper">
+            
+            <!-- Left Side: Contact Info -->
+            <div class="contact-details">
+                <h2>Get In Touch</h2>
+                <p class="contact-desc">Aap hamare office visit kar sakte hain ya niche diye gaye tareeqon se direct baat kar sakte hain. Hamari team 24 ghante ke andar aapse rabta karegi.</p>
+                
+                <div class="info-blocks">
+                    <div class="info-block">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">
+                            <h3>Our Office</h3>
+                            <p>Main Boulevard, Gulberg III, Lahore, Pakistan</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-block">
+                        <div class="info-icon">📞</div>
+                        <div class="info-text">
+                            <h3>Call / WhatsApp</h3>
+                            <p>+92 300 1234567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-block">
+                        <div class="info-icon">✉️</div>
+                        <div class="info-text">
+                            <h3>Email Us</h3>
+                            <p>info@alphaconstruction.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Contact Form -->
+            <div class="contact-form-container">
+                <h2>Send Us A Message</h2>
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Message Sent Successfully!');">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="Apna naam likhein" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Apna Email likhein" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="Apna Phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" rows="5" placeholder="Project ki details ya sawal yahan likhein..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn submit-btn">Submit Message</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Alpha Construction Company. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
